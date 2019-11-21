@@ -12533,14 +12533,6 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="38.1" y="114.3"/>
 </segment>
 <segment>
-<pinref part="C20" gate="G$1" pin="2"/>
-<pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="127" y1="114.3" x2="127" y2="111.76" width="0.1524" layer="91"/>
-<junction x="127" y="114.3"/>
-<label x="127" y="111.76" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="60.96" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
 <label x="144.78" y="60.96" size="0.8128" layer="95" xref="yes"/>
@@ -12679,14 +12671,6 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="38.1" y1="121.92" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
 <junction x="38.1" y="121.92"/>
 </segment>
-<segment>
-<pinref part="C19" gate="G$1" pin="1"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="127" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="127" y1="121.92" x2="127" y2="124.46" width="0.1524" layer="91"/>
-<junction x="127" y="121.92"/>
-<label x="127" y="124.46" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="CGND" class="0">
 <segment>
@@ -12719,6 +12703,14 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="IC1" gate="G$1" pin="VSSA/VREF-"/>
 <wire x1="60.96" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
 <label x="58.42" y="81.28" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="127" y1="114.3" x2="127" y2="111.76" width="0.1524" layer="91"/>
+<junction x="127" y="114.3"/>
+<label x="127" y="111.76" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -12764,6 +12756,14 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="IC1" gate="G$1" pin="VDDA/VREF+"/>
 <wire x1="60.96" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 <label x="58.42" y="78.74" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="127" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="127" y1="121.92" x2="127" y2="124.46" width="0.1524" layer="91"/>
+<junction x="127" y="121.92"/>
+<label x="127" y="124.46" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
