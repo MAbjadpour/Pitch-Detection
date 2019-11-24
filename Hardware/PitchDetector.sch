@@ -12111,7 +12111,8 @@ Source: http://www.osram.convergy.de/</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.254" drill="0.1">
+<clearance class="0" value="0.1524"/>
 </class>
 </classes>
 <parts>
@@ -12397,6 +12398,9 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="IC1" gate="G$1" pin="VSS_1"/>
 <wire x1="71.12" y1="116.84" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
 <label x="71.12" y="119.38" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="BOOT0"/>
+<wire x1="78.74" y1="116.84" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -12981,6 +12985,11 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="200.66" y1="96.52" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
 <label x="200.66" y="93.98" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB5"/>
+<wire x1="86.36" y1="116.84" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
+<label x="86.36" y="119.38" size="0.8128" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="LCD_D4" class="0">
 <segment>
@@ -12992,11 +13001,6 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="IC1" gate="G$1" pin="PB4"/>
 <wire x1="88.9" y1="116.84" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
 <label x="88.9" y="119.38" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB5"/>
-<wire x1="86.36" y1="116.84" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
-<label x="86.36" y="119.38" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
