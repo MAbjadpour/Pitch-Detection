@@ -12111,7 +12111,7 @@ Source: http://www.osram.convergy.de/</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.254" drill="0.1">
+<class number="0" name="default" width="0.254" drill="0.34">
 <clearance class="0" value="0.1524"/>
 </class>
 </classes>
@@ -12423,6 +12423,10 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="231.14" y1="83.82" x2="231.14" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="96.52" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
 <junction x="228.6" y="96.52"/>
+<pinref part="X2" gate="G$1" pin="K"/>
+<wire x1="190.5" y1="96.52" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="109.22" x2="228.6" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="109.22" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="RW"/>
@@ -12617,7 +12621,12 @@ Source: http://www.osram.convergy.de/</description>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="VDD"/>
+<pinref part="X2" gate="G$1" pin="A"/>
+<wire x1="193.04" y1="96.52" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="106.68" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="106.68" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="96.52" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
+<junction x="226.06" y="96.52"/>
 <label x="226.06" y="93.98" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
@@ -13070,6 +13079,11 @@ Source: http://www.osram.convergy.de/</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,60.96,93.98,IC1,PC14/OSC32_IN,,,,"/>
+<approved hash="208,1,226.06,96.52,3V3,sup,,,,"/>
+<approved hash="208,1,76.2,187.96,3V3,out,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
